@@ -1,0 +1,16 @@
+{
+  "name": "ipupdater",
+  "version": "1.0.0",
+  "description": "update publicIP on smartDNS",
+  "main": "cron.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cron.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cron": "^1.8.2"
+  }
+}
